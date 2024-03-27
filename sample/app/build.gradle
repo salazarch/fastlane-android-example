@@ -34,7 +34,7 @@ kapt {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':himura-kt')
+    //compile project(':himura-kt')
 
     debugCompile(libraries.leak_canary)
 
